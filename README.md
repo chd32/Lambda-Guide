@@ -138,12 +138,10 @@
 | Mainnet   |   8| 16GB | 160GB    |
 
 
-# 1) Auto_install script
-```python
-wget -O lamb https://raw.githubusercontent.com/obajay/nodes-Guides/main/Projects/Lambda/lamb && chmod +x lamb && ./lamb
-```
 
-# 2) Manual installation
+
+
+# 1) Manual installation
 
 ### Preparing the server
 
@@ -230,7 +228,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.lambdavm/config/confi
 
 ## Download addrbook
 ```python
-wget -O $HOME/.lambdavm/config/addrbook.json "https://raw.githubusercontent.com/obajay/nodes-Guides/main/Projects/Lambda/addrbook.json"
+wget -O $HOME/.lambdavm/config/addrbook.json "https://github.com/chd32/Lambda-Guide/blob/main/addrbook.json"
 ```
 
 # StateSync
